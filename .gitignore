@@ -1,0 +1,46 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# ---- 虚拟环境 ----
+.venv/
+venv/
+env/
+
+# ---- 训练产物（检查点 / 报告 / 日志） ----
+checkpoints/
+results/
+runs/
+wandb/
+*.log
+
+# ---- 模型权重 ----
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# ---- 数据与预提取特征 ----
+data/
+*.npy
+*.npz
+raw_texts.jsonl
+images.list
+
+# ---- IDE / 编辑器 ----
+.idea/
+.vscode/
+*.swp
+
+# ---- 操作系统 ----
+.DS_Store
+Thumbs.db
