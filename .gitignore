@@ -30,7 +30,6 @@ wandb/
 *.safetensors
 
 # ---- 数据与预提取特征 ----
-data/
 *.npy
 *.npz
 raw_texts.jsonl
